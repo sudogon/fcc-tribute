@@ -1,0 +1,50 @@
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #aad48e;
+  text-align: center;
+}
+
+section {
+  display: block;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+ul {
+  max-width: 600px;
+  text-align: left;
+  position: center;
+  margin: 0 auto 50px auto;
+  line-height: 1.8;
+}
+
+figure {
+  background-color: #fff;
+  margin: 18px 20px 20px 18px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  min-width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 1rem;
+}
+
+#img-caption {
+  padding-bottom: 1rem;
